@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+
+    /* Add left and right margins */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Set the width of the container */
+    width: 90%;
+}
+
+.headframe {
+    background-color: #333;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Add some space after the photo */
+    margin-right: 20px;
+}
+
+.profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.name-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name-title h1 {
+    margin: 0;
+    color: #f2f2f2;
+}
+
+.name-title h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #ccc;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+main h1 {
+    margin-top: 0;
+}
+
+
+footer p {
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+
+    /* Add left and right margins */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Set the width of the header */
+    max-width: 1000px;
+}
+
+header iframe {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+
+    /* Add left and right margins */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Set the width of the footer */
+    max-width: 1000px;
+}
