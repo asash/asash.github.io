@@ -56,6 +56,12 @@ body {
     font-weight: normal;
     color: #ccc;
 }
+.name-title h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #ccc;
+}
 
 nav ul {
     list-style: none;
@@ -122,4 +128,29 @@ footer {
 
     /* Set the width of the footer */
     max-width: 1000px;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #eee;
+    text-decoration:underline;
+    text-decoration-style: dotted;
+    color: #435d88;
+    cursor: pointer;
+    /*padding: 18px;*/
+    width: 100%;
+    text-align: left;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+    background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
 }
