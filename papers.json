@@ -1,0 +1,95 @@
+[
+  {
+    "title": " RecJPQ: Training Large-Catalogue Sequential Recommenders",
+    "authors": ["Aleksandr V. Petrov", "Craig Macdonald"],
+    "venue": "WSDM",
+    "year": 2024,
+    "links": [
+    ],
+    "awards": []
+  },
+    {
+      "title": "gSASRec: Reducing Overconfidence in Sequential Recommendation Trained with Negative Sampling.",
+      "authors": ["Aleksandr V. Petrov", "Craig Macdonald"],
+      "venue": "RecSys",
+      "year": 2023,
+      "links": [{"name": "pdf", "url": "https://arxiv.org/pdf/2308.07192.pdf"},
+                {"name": "code", "url": "https://github.com/asash/gSASRec-pytorch"}
+              ],
+      "awards": ["Best Paper Award"]
+    },
+
+  {
+    "title": "Generative Sequential Recommendation with GPTRec. ",
+    "authors": ["Aleksandr V. Petrov", "Craig Macdonald"],
+    "venue": "Gen-IR@SIGIR",
+    "year": 2023,
+    "links": [{"name": "pdf", "url": "https://arxiv.org/pdf/2306.11114.pdf"}],
+    "awards": []
+  },
+
+    {
+      "title": "RSS: Effective and Efficient Training for Sequential Recommendation using Recency Sampling",
+      "authors": ["Aleksandr V. Petrov", "Craig Macdonald"],
+      "venue": "TORS",
+      "year": 2023,
+      "links": [{"name": "pdf", "url": "https://eprints.gla.ac.uk/299238/1/299238.pdf"},
+                 {"name": "code", "url": "https://github.com/asash/bert4rec_repro"}],
+      "awards": []
+    },
+
+  {
+    "title": "Effective and Efficient Training for Sequential Recommendation using Recency Sampling",
+    "authors": ["Aleksandr V. Petrov", "Craig Macdonald"],
+    "venue": "RecSys",
+    "year": 2022,
+    "links": [{"name": "pdf", "url": "https://eprints.gla.ac.uk/273792/2/273792.pdf"},
+      {"name": "code", "url": "https://github.com/asash/bert4rec_repro"}],
+    "awards": ["Best Paper Nominee"]
+  },
+  {
+    "title": "A Systematic Review and Replicability Study of BERT4Rec for Sequential Recommendation.",
+    "authors": ["Aleksandr V. Petrov", "Craig Macdonald"],
+    "venue": "RecSys",
+    "year": 2022,
+    "links": [{"name": "pdf", "url": "https://eprints.gla.ac.uk/275645/2/275645.pdf"},
+      {"name": "code", "url": "https://github.com/asash/bert4rec_repro"}],
+    "awards": []
+  },
+  {
+    "title": "A Systematic Review and Replicability Study of BERT4Rec for Sequential Recommendation.",
+    "authors": ["Aleksandr V. Petrov", "Ildar Safilo", "Daria Tikhonovich", "Dmitry Ignatov"],
+    "venue": "RecSys",
+    "year": 2022,
+    "links": [{"name": "pdf", "url": "https://arxiv.org/pdf/2209.00325.pdf"},
+      {"name": "code", "url": "https://github.com/MobileTeleSystems/RecTools/tree/main/datasets/KION"}],
+    "awards": []
+  },
+
+  {
+    "title": "Attention-based neural re-ranking approach for next city in trip recommendations",
+    "authors": ["Aleksandr V. Petrov", "Yuriy Makarov"],
+    "venue": "WebTour@WSDM",
+    "year": 2021,
+    "links": [{"name": "pdf", "url": "https://ceur-ws.org/Vol-2855/challenge_short_6.pdf"}],
+    "awards": []
+  },
+
+  {
+    "title": "Association-Based Identification of Internet Users Interest",
+    "authors": ["Michael Charnine", "Aleksandr V. Petrov", "Kuznetsov, I."],
+    "venue": "ICAI",
+    "year": 2013,
+    "links": [{"name": "pdf", "url": "https://asash.github.io/pdf/ICA2119.pdf"}],
+    "awards": []
+  },
+
+  {
+    "title": "Methodology for taking into account the interests of the user when working on the Internet based on his profile and associative links",
+    "authors": ["Michael Charnine", "Petrov, A.", "Kuznetsov, I."],
+    "venue": "RSDL",
+    "year": 2013,
+    "links": [{"name": "pdf", "url": "https://asash.github.io/pdf/rus_assoc.pdf"}],
+    "awards": []
+  }
+]
