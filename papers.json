@@ -9,7 +9,7 @@
     "awards": []
   },
     {
-      "title": "gSASRec: Reducing Overconfidence in Sequential Recommendation Trained with Negative Sampling.",
+      "title": "gSASRec: Reducing Overconfidence in Sequential Recommendation Trained with Negative Sampling",
       "authors": ["Aleksandr V. Petrov", "Craig Macdonald"],
       "venue": "RecSys",
       "year": 2023,
@@ -20,7 +20,7 @@
     },
 
   {
-    "title": "Generative Sequential Recommendation with GPTRec. ",
+    "title": "Generative Sequential Recommendation with GPTRec",
     "authors": ["Aleksandr V. Petrov", "Craig Macdonald"],
     "venue": "Gen-IR@SIGIR",
     "year": 2023,
@@ -48,7 +48,7 @@
     "awards": ["Best Paper Nominee"]
   },
   {
-    "title": "A Systematic Review and Replicability Study of BERT4Rec for Sequential Recommendation.",
+    "title": "A Systematic Review and Replicability Study of BERT4Rec for Sequential Recommendation",
     "authors": ["Aleksandr V. Petrov", "Craig Macdonald"],
     "venue": "RecSys",
     "year": 2022,
@@ -57,9 +57,9 @@
     "awards": []
   },
   {
-    "title": "A Systematic Review and Replicability Study of BERT4Rec for Sequential Recommendation.",
+    "title": "MTS Kion Implicit Contextualised Sequential Dataset for Movie Recommendation",
     "authors": ["Aleksandr V. Petrov", "Ildar Safilo", "Daria Tikhonovich", "Dmitry Ignatov"],
-    "venue": "RecSys",
+    "venue": "CARS@RecSys",
     "year": 2022,
     "links": [{"name": "pdf", "url": "https://arxiv.org/pdf/2209.00325.pdf"},
       {"name": "code", "url": "https://github.com/MobileTeleSystems/RecTools/tree/main/datasets/KION"}],
