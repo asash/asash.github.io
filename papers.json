@@ -16,8 +16,8 @@
     "venue": "ECIR",
     "year": 2024,
     "links": [
-        {"name": "slides", "url": "https://github.com/asash/transformers-for-recsys-tutorial"
-         "name": "extended abstract", "url": "https://link.springer.com/chapter/10.1007/978-3-031-56069-9_49"},
+        {"name": "slides", "url": "https://github.com/asash/transformers-for-recsys-tutorial"},
+        {"name": "extended abstract", "url": "https://link.springer.com/chapter/10.1007/978-3-031-56069-9_49"}
     ],
     "awards": ["Tutorial"]
   },
