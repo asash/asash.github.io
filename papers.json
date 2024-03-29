@@ -11,6 +11,17 @@
     "awards": []
   },
     {
+    "title": " Transformers for Sequential Recommendation",
+    "authors": ["Aleksandr V. Petrov", "Craig Macdonald"],
+    "venue": "ECIR",
+    "year": 2024,
+    "links": [
+        {"name": "slides", "url": "https://github.com/asash/transformers-for-recsys-tutorial"
+         "name": "extended abstract", "url": "https://link.springer.com/chapter/10.1007/978-3-031-56069-9_49"},
+    ],
+    "awards": ["Tutorial"]
+  },
+    {
     "title": " Shallow Cross-Encoders for Low-Latency Retrieval",
     "authors": ["Aleksandr V. Petrov", "Sean MacAvaney", "Craig Macdonald"],
     "venue": "ECIR",
