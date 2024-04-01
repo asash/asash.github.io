@@ -11,7 +11,7 @@
     "awards": []
   },
     {
-    "title": " Transformers for Sequential Recommendation",
+    "title": "Transformers for Sequential Recommendation",
     "authors": ["Aleksandr V. Petrov", "Craig Macdonald"],
     "venue": "ECIR",
     "year": 2024,
@@ -21,15 +21,16 @@
     ],
     "awards": ["Tutorial"]
   },
-    {
-    "title": " Shallow Cross-Encoders for Low-Latency Retrieval",
-    "authors": ["Aleksandr V. Petrov", "Sean MacAvaney", "Craig Macdonald"],
+  {
+    "title": "Shallow Cross-Encoders for Low-Latency Retrieval",
+    "authors": ["Aleksandr V. Petrov", "", "Craig Macdonald"],
     "venue": "ECIR",
     "year": 2024,
     "links": [
         {"name": "pdf", "url": "https://arxiv.org/pdf/2403.20222.pdf"},
         {"name": "code", "url": "https://github.com/asash/shallow-cross-encoders"}
-    ]
+    ],
+    "awards": []
   },
   {
     "title": " RecJPQ: Training Large-Catalogue Sequential Recommenders",
