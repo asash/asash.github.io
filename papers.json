@@ -28,7 +28,10 @@
     "year": 2024,
     "links": [
     ],
-    "awards": []
+    "awards": [
+        {"name": "pdf", "url": "https://arxiv.org/pdf/2403.20222.pdf"},
+        {"name": "code", "url": "https://github.com/asash/shallow-cross-encoders"}
+    ]
   },
   {
     "title": " RecJPQ: Training Large-Catalogue Sequential Recommenders",
