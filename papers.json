@@ -28,7 +28,7 @@
     "year": 2024,
     "links": [
     ],
-    "awards": [
+    "links": [
         {"name": "pdf", "url": "https://arxiv.org/pdf/2403.20222.pdf"},
         {"name": "code", "url": "https://github.com/asash/shallow-cross-encoders"}
     ]
