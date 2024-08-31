@@ -1,5 +1,14 @@
 [
     {
+      "title": "Efficient Inference of Sub-Item Id-based Sequential Recommendation Models with Millions of Items",
+      "authors": ["Aleksandr V. Petrov", "Craig Macdonald", "Nicola Tonellotto"],
+      "venue": "RecSys",
+      "year": 2024,
+      "links": [{"name": "pdf", "url": "https://arxiv.org/pdf/2408.09992"},
+                {"name": "code", "url": "https://github.com/asash/RecJPQ-TopK"}
+              ],
+    },
+    {
       "title": "gSASRec: Reducing Overconfidence in Sequential Recommendation Trained with Negative Sampling (Extended Abstract)",
       "authors": ["Aleksandr V. Petrov", "Craig Macdonald"],
       "venue": "IJCAI",
