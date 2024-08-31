@@ -1,5 +1,13 @@
 [
     {
+      "title": "Enhancing Sequential Music Recommendation with Personalized Popularity Awareness",
+      "authors": ["Davide Abbattista", "Vito Walter Anelli", "Tommaso Di Noia", "Craig Macdonald", "Aleksandr V. Petrov"],
+      "venue": "RecSys",
+      "year": 2024,
+      "links": [],
+       "awards": []
+    },
+    {
       "title": "Efficient Inference of Sub-Item Id-based Sequential Recommendation Models with Millions of Items",
       "authors": ["Aleksandr V. Petrov", "Craig Macdonald", "Nicola Tonellotto"],
       "venue": "RecSys",
