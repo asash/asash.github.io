@@ -1,5 +1,15 @@
 [
     {
+      "title": "gSASRec: Reducing Overconfidence in Sequential Recommendation Trained with Negative Sampling (Extended Abstract)",
+      "authors": ["Aleksandr V. Petrov", "Craig Macdonald"],
+      "venue": "IJCAI",
+      "year": 2024,
+      "links": [{"name": "pdf", "url": "https://www.ijcai.org/proceedings/2024/0939.pdf"},
+                {"name": "code", "url": "https://github.com/asash/gSASRec-pytorch"}
+              ],
+      "awards": ["Sister Conferences Best Papers"]
+    },
+    {
     "title": " Aligning GPTRec with Beyond-Accuracy Goals with Reinforcement Learning",
     "authors": ["Aleksandr V. Petrov", "Craig Macdonald"],
     "venue": "GenRec@WWWW",
