@@ -1,5 +1,14 @@
 [
     {
+      "title": "Efficient Recommendation with Millions of Items by Dynamic Pruning of Sub-Item Embeddings",
+      "authors": ["Aleksandr V. Petrov", "Craig Macdonald", "Nicola Tonellotto"],
+      "venue": "SIGIR",
+      "year": 2025,
+      "links": [],
+       "awards": []
+    },
+    
+    {
       "title": "CountNet: Utilising Repetition Counts in Sequential Recommendation",
       "authors": ["Aleksandr V. Petrov", "Efi Karra Taniskidou", "Sean Murphy"],
       "venue": "ECIR",
