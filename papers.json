@@ -1,10 +1,29 @@
 [
     {
+      "title": "CountNet: Utilising Repetition Counts in Sequential Recommendation",
+      "authors": ["Aleksandr V. Petrov", "Efi Karra Taniskidou", "Sean Murphy"],
+      "venue": "ECIR",
+      "year": 2025,
+      "links": [{"name": "paper", "url": "https://link.springer.com/chapter/10.1007/978-3-031-88714-7_4"},
+                {"name": "code", "url": "https://github.com/asash/CountNet"}],
+       "awards": []
+    },
+    {
+      "title": "Improving Minimax Group Fairness in Sequential Recommendation",
+      "authors": ["Krishna Acharya", "David Wardrope", "Timos Korres", "Aleksandr V. Petrov", "Anders Uhrenholt"],
+      "venue": "ECIR",
+      "year": 2025,
+      "links": [{"name": "pdf", "url": "https://arxiv.org/pdf/2501.18117"},
+                {"name": "code", "url": "https://github.com/krishnacharya/sequentialrec-fairness"}],
+       "awards": []
+    },
+    {
       "title": "Enhancing Sequential Music Recommendation with Personalized Popularity Awareness",
       "authors": ["Davide Abbattista", "Vito Walter Anelli", "Tommaso Di Noia", "Craig Macdonald", "Aleksandr V. Petrov"],
       "venue": "RecSys",
       "year": 2024,
-      "links": [],
+      "links": [{"name": "pdf", "url": "https://arxiv.org/pdf/2409.04329"},
+                {"name": "code", "url": "https://github.com/sisinflab/personalized-popularity-awareness"}],
        "awards": []
     },
     {
