@@ -18,6 +18,16 @@
        "awards": []
     },
     {
+      "title": "Improving Effectiveness by Reducing Overconfidence in Large Catalogue Sequential Recommendation with gBCE loss",
+      "authors": ["Aleksandr V. Petrov", "Craig Macdonald"],
+      "venue": "TORS",
+      "year": 2024,
+      "links": [{"name": "paper", "url": "https://dl.acm.org/doi/10.1145/3699521"},
+                {"name": "code", "url": "https://github.com/asash/gsasrec"}, 
+                {"name": "code (pytorch)", "url": "https://github.com/asash/gSASRec-pytorch"}],
+       "awards": []
+    },
+    {
       "title": "Enhancing Sequential Music Recommendation with Personalized Popularity Awareness",
       "authors": ["Davide Abbattista", "Vito Walter Anelli", "Tommaso Di Noia", "Craig Macdonald", "Aleksandr V. Petrov"],
       "venue": "RecSys",
