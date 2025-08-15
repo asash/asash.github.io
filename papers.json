@@ -4,7 +4,8 @@
       "authors": ["Aleksandr V. Petrov", "Craig Macdonald", "Nicola Tonellotto"],
       "venue": "SIGIR",
       "year": 2025,
-      "links": [],
+      "links":  [{"name": "paper", "url": "https://dl.acm.org/doi/pdf/10.1145/3726302.3729963"},
+                {"name": "code", "url": "https://github.com/asash/recjpq_dp_pruning"}],
        "awards": []
     },
     
