@@ -1,4 +1,4 @@
-fetch('papers.json')
+fetch('papers.json?v=20260812-2', { cache: 'no-store' })
     .then(response => response.json())
     .then(papers => {
         let publicationList = document.querySelector('#publications ul');
@@ -31,7 +31,18 @@ fetch('papers.json')
                 // Venue badge
                 let venueBadge = document.createElement('span');
                 venueBadge.classList.add('badge', 'venue-badge');
-                venueBadge.textContent = `${paper.venue} '${paper.year.toString().slice(2)}`;
+                const workshopVenue = paper.venue.match(/^(.+?) \((.+ workshop)\)$/);
+                const venueMain = document.createElement('span');
+                venueMain.classList.add('venue-main');
+                venueMain.textContent = `${workshopVenue ? workshopVenue[1] : paper.venue} '${paper.year.toString().slice(2)}`;
+                venueBadge.appendChild(venueMain);
+
+                if (workshopVenue) {
+                    const workshopName = document.createElement('span');
+                    workshopName.classList.add('venue-workshop');
+                    workshopName.textContent = workshopVenue[2];
+                    venueBadge.appendChild(workshopName);
+                }
                 badgeContainer.appendChild(venueBadge);
 
                 // Awards badges

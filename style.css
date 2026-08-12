@@ -165,15 +165,29 @@ footer {
 .badge {
     min-width: 100px;
     display: inline-block;
+    box-sizing: border-box;
     padding: 0.25em 0.5em;
     margin: 0.5em 0.5em 0 0; /* Added margin-top */
     border-radius: 5px;
     font-size: 0.75em;
+    line-height: 1.2;
 }
 
 .venue-badge {
     background-color: #007BFF;
     color: white;
+    width: 100%;
+}
+
+.venue-main,
+.venue-workshop {
+    display: block;
+}
+
+.venue-workshop {
+    margin-top: 0.2em;
+    font-size: 0.86em;
+    overflow-wrap: anywhere;
 }
 
 .award-badge {
@@ -235,12 +249,28 @@ footer {
 
 
 .badge-container {
-    width: 140px; /* This can be adjusted based on your desired width */
+    width: 165px;
     display: flex;
     flex-shrink: 0;
     flex-direction: column; /* Stack badges vertically */
     gap: 5px; /* Spacing between badges */
     margin-right: 10px; /* Space between badges and title */
+}
+
+@media only screen and (max-width: 600px) {
+    .paper-item {
+        flex-direction: column;
+    }
+
+    .badge-container {
+        width: auto;
+        max-width: 100%;
+        margin: 0 0 0.25em;
+    }
+
+    .venue-badge {
+        width: auto;
+    }
 }
 
 /* Authors and links in the same line */
