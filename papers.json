@@ -115,7 +115,7 @@
       "awards": ["Sister Conferences Best Papers"]
     },
     {
-    "title": " Aligning GPTRec with Beyond-Accuracy Goals with Reinforcement Learning",
+    "title": "Aligning GPTRec with Beyond-Accuracy Goals with Reinforcement Learning",
     "authors": ["Aleksandr V. Petrov", "Craig Macdonald"],
     "venue": "WWW (GenRec workshop)",
     "year": 2024,
@@ -138,7 +138,7 @@
   },
   {
     "title": "Shallow Cross-Encoders for Low-Latency Retrieval",
-    "authors": ["Aleksandr V. Petrov", "", "Craig Macdonald"],
+    "authors": ["Aleksandr V. Petrov", "Craig Macdonald", "Sean MacAvaney"],
     "venue": "ECIR",
     "year": 2024,
     "links": [
@@ -148,7 +148,7 @@
     "awards": []
   },
   {
-    "title": " RecJPQ: Training Large-Catalogue Sequential Recommenders",
+    "title": "RecJPQ: Training Large-Catalogue Sequential Recommenders",
     "authors": ["Aleksandr V. Petrov", "Craig Macdonald"],
     "venue": "WSDM",
     "year": 2024,

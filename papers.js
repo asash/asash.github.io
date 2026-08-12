@@ -1,7 +1,7 @@
-fetch('papers.json?v=20260812-2', { cache: 'no-store' })
+fetch('papers.json?v=20260812-3', { cache: 'no-store' })
     .then(response => response.json())
     .then(papers => {
-        let publicationList = document.querySelector('#publications ul');
+        let publicationList = document.querySelector('#publication-list');
 
         // Group papers by year
         let groupedPapers = papers.reduce((acc, paper) => {
@@ -15,8 +15,8 @@ fetch('papers.json?v=20260812-2', { cache: 'no-store' })
         sortedYears.forEach(year => {
             // Add year title
             let yearTitle = document.createElement('li');
-            yearTitle.classList.add("nobullet")
-            yearTitle.innerHTML = `<h4>${year}</h4>`;
+            yearTitle.classList.add('year-heading');
+            yearTitle.innerHTML = `<h3>${year}</h3>`;
             publicationList.appendChild(yearTitle);
 
             groupedPapers[year].forEach(paper => {
@@ -60,7 +60,8 @@ fetch('papers.json?v=20260812-2', { cache: 'no-store' })
 
                 // Title
                 let titleElem = document.createElement('div');
-                titleElem.innerHTML = `<strong>${paper.title}</strong>`;
+                titleElem.classList.add('paper-title');
+                titleElem.textContent = paper.title.trim();
                 titleAuthorsWrapper.appendChild(titleElem);
 
                 // Authors and Links Wrapper
@@ -69,15 +70,16 @@ fetch('papers.json?v=20260812-2', { cache: 'no-store' })
 
                 // Authors
                 let authorsElem = document.createElement('span');
-                authorsElem.innerHTML = `${paper.authors.join(", ")}`;
+                authorsElem.textContent = paper.authors.join(', ');
                 authorsLinksWrapper.appendChild(authorsElem);
 
                 paper.links.forEach(link => {
                     let anchor = document.createElement('a');
                     anchor.href = link.url;
                     anchor.textContent = link.name;
-                    anchor.target = "_blank"; // Optional: Opens link in a new tab
-                    anchor.classList.add('styled-link'); // Add the class here
+                    anchor.target = '_blank';
+                    anchor.rel = 'noopener noreferrer';
+                    anchor.classList.add('styled-link');
 
                     // Add specific class based on link type
                     if (link.name.toLowerCase() === "pdf") {
@@ -94,4 +96,11 @@ fetch('papers.json?v=20260812-2', { cache: 'no-store' })
                 publicationList.appendChild(listItem);
             });
         });
+    })
+    .catch(() => {
+        const publicationList = document.querySelector('#publication-list');
+        const errorMessage = document.createElement('li');
+        errorMessage.classList.add('publication-error');
+        errorMessage.textContent = 'Publications could not be loaded. Please refresh the page.';
+        publicationList.appendChild(errorMessage);
     });
