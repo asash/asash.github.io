@@ -1,5 +1,53 @@
 [
     {
+      "title": "Hypothesis-Driven Shelf Generation for Personalised Recommendation",
+      "authors": ["Aleksandr V. Petrov", "Tarun Chillara", "Matthew D. Moellman", "Lucas de Haas", "Yabai Song", "Alina Susoykina", "Melissa Crawford", "Gabriel Negash", "Erik Franco", "Tasnim Rahman", "Binal Jhaveri", "Shubham Bansal", "Hugues Bouchard", "Roberto Mirizzi", "Mounia Lalmas", "Aloïs Gruson"],
+      "venue": "RecSys",
+      "year": 2026,
+      "links": [{"name": "paper", "url": "https://arxiv.org/abs/2607.25823"}],
+      "awards": ["Industry Track"]
+    },
+    {
+      "title": "Robust Fusion of Semantic and Behavioural Signals for LLM Reranking in Personalised Search",
+      "authors": ["Aleksandr V. Petrov", "Nathan Stein", "Erik Lybecker", "Emma Schüldt", "Daniel Lazarovski", "Hugues Bouchard", "Mounia Lalmas"],
+      "venue": "USRW@RecSys",
+      "year": 2026,
+      "links": [],
+      "awards": []
+    },
+    {
+      "title": "Do LLM-judges Align with Human Relevance in Cranfield-style Recommender Evaluation?",
+      "authors": ["Gustavo Penha", "Aleksandr V. Petrov", "Claudia Hauff", "Enrico Palumbo", "Ali Vardasbi", "Edoardo D'Amico", "Francesco Fabbri", "Alice Wang", "Praveen Chandar", "Henrik Lindstrom", "Hugues Bouchard", "Mounia Lalmas"],
+      "venue": "USRW@RecSys",
+      "year": 2026,
+      "links": [{"name": "paper", "url": "https://arxiv.org/abs/2511.23312"}],
+      "awards": []
+    },
+    {
+      "title": "Do Sequential Recommendation Benchmarks Really Require Higher-Order Sequence Modelling?",
+      "authors": ["Aleksandr V. Petrov", "Praveen Chandar", "Paul N. Bennett", "Hugues Bouchard", "Mounia Lalmas"],
+      "venue": "RecSys",
+      "year": 2026,
+      "links": [],
+      "awards": []
+    },
+    {
+      "title": "LLMs for Estimating Positional Bias in Logged Interaction Data",
+      "authors": ["Aleksandr V. Petrov", "Michael Murtagh", "Karthik Nagesh"],
+      "venue": "CONSEQUENCES@RecSys",
+      "year": 2025,
+      "links": [{"name": "paper", "url": "https://arxiv.org/abs/2509.03696"}],
+      "awards": []
+    },
+    {
+      "title": "GLoSS: Generative Language Models with Semantic Search for Sequential Recommendation",
+      "authors": ["Krishna Acharya", "Aleksandr V. Petrov", "Juba Ziani"],
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [{"name": "paper", "url": "https://arxiv.org/abs/2506.01910"}],
+      "awards": []
+    },
+    {
       "title": "Efficient Recommendation with Millions of Items by Dynamic Pruning of Sub-Item Embeddings",
       "authors": ["Aleksandr V. Petrov", "Craig Macdonald", "Nicola Tonellotto"],
       "venue": "SIGIR",
