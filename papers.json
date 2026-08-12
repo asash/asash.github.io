@@ -4,6 +4,7 @@
       "authors": ["Aleksandr V. Petrov", "Tarun Chillara", "Matthew D. Moellman", "Lucas de Haas", "Yabai Song", "Alina Susoykina", "Melissa Crawford", "Gabriel Negash", "Erik Franco", "Tasnim Rahman", "Binal Jhaveri", "Shubham Bansal", "Hugues Bouchard", "Roberto Mirizzi", "Mounia Lalmas", "Aloïs Gruson"],
       "venue": "RecSys",
       "year": 2026,
+      "selected": true,
       "links": [{"name": "paper", "url": "https://arxiv.org/abs/2607.25823"}],
       "awards": ["Industry Track"]
     },
@@ -12,6 +13,7 @@
       "authors": ["Aleksandr V. Petrov", "Nathan Stein", "Erik Lybecker", "Emma Schüldt", "Daniel Lazarovski", "Hugues Bouchard", "Mounia Lalmas"],
       "venue": "RecSys (USRW workshop)",
       "year": 2026,
+      "selected": true,
       "links": [],
       "awards": []
     },
@@ -36,6 +38,7 @@
       "authors": ["Aleksandr V. Petrov", "Michael Murtagh", "Karthik Nagesh"],
       "venue": "RecSys (CONSEQUENCES workshop)",
       "year": 2025,
+      "selected": true,
       "links": [{"name": "paper", "url": "https://arxiv.org/abs/2509.03696"}],
       "awards": []
     },
@@ -52,6 +55,7 @@
       "authors": ["Aleksandr V. Petrov", "Craig Macdonald", "Nicola Tonellotto"],
       "venue": "SIGIR",
       "year": 2025,
+      "selected": true,
       "links":  [{"name": "paper", "url": "https://dl.acm.org/doi/pdf/10.1145/3726302.3729963"},
                 {"name": "code", "url": "https://github.com/asash/recjpq_dp_pruning"}],
        "awards": []
@@ -163,6 +167,7 @@
       "authors": ["Aleksandr V. Petrov", "Craig Macdonald"],
       "venue": "RecSys",
       "year": 2023,
+      "selected": true,
       "links": [{"name": "pdf", "url": "https://arxiv.org/pdf/2308.07192.pdf"},
                 {"name": "code", "url": "https://github.com/asash/gSASRec-pytorch"}
               ],
@@ -174,6 +179,7 @@
     "authors": ["Aleksandr V. Petrov", "Craig Macdonald"],
     "venue": "SIGIR (Gen-IR workshop)",
     "year": 2023,
+    "selected": true,
     "links": [{"name": "pdf", "url": "https://arxiv.org/pdf/2306.11114.pdf"}],
     "awards": []
   },

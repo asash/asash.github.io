@@ -1,0 +1,114 @@
+.eyebrow {
+    margin: 0 0 5px;
+    color: #65738a;
+    font-size: 0.73rem;
+    font-weight: 750;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.section-intro {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 22px;
+}
+
+.section-intro .section-heading {
+    margin-bottom: 0;
+}
+
+.section-link {
+    flex: 0 0 auto;
+    font-size: 0.88rem;
+    font-weight: 650;
+    text-decoration: none;
+}
+
+.section-link::after {
+    content: " ↓";
+}
+
+.highlight-grid,
+.honours-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.highlight-card {
+    min-height: 164px;
+    padding: 20px;
+    border: 1px solid var(--line);
+    border-top: 3px solid #4c7fce;
+    border-radius: 11px;
+    background: var(--surface);
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.04);
+}
+
+.highlight-card h3,
+.honour-card h3 {
+    margin: 0;
+    color: #17233a;
+    font-size: 1rem;
+    line-height: 1.35;
+}
+
+.highlight-card p {
+    margin: 9px 0 0;
+    color: var(--muted);
+    font-size: 0.88rem;
+    line-height: 1.55;
+}
+
+.honour-card {
+    padding: 18px;
+    border: 1px solid #e3dbc3;
+    border-radius: 11px;
+    background: #fffdf7;
+}
+
+.honour-card > span {
+    display: inline-block;
+    margin-bottom: 9px;
+    color: #936b17;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.honour-card p {
+    margin: 5px 0 0;
+    color: var(--muted);
+    font-size: 0.84rem;
+    line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+    .highlight-grid,
+    .honours-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .highlight-card {
+        min-height: 0;
+    }
+}
+
+@media (max-width: 560px) {
+    .section-intro {
+        display: block;
+    }
+
+    .section-link {
+        display: inline-block;
+        margin-top: 8px;
+    }
+
+    .highlight-grid,
+    .honours-grid {
+        grid-template-columns: 1fr;
+    }
+}

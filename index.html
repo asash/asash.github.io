@@ -5,85 +5,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Aleksandr V. Petrov — Applied ML Researcher working on search, recommendation, and generative models.">
-    <link rel="stylesheet" href="style.css?v=20260812-3">
-    <link rel="stylesheet" href="publications.css?v=20260812-3">
-    <script src="papers.js?v=20260812-3" defer></script>
+    <link rel="stylesheet" href="style.css?v=20260812-4">
+    <link rel="stylesheet" href="profile-sections.css?v=20260812-4">
+    <link rel="stylesheet" href="publications.css?v=20260812-4">
+    <script src="papers.js?v=20260812-4" defer></script>
 </head>
 <body>
-<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-N2VQB1X5MM"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag(){window.dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-N2VQB1X5MM');
 </script>
+
 <header>
-    <div class="headframe">
-        <div class="container">
-            <div class="profile">
-                <div class="name-title">
-                    <h1>Aleksandr V. Petrov</h1>
-                    <h2>Applied ML Researcher · Search &amp; Recommendation</h2>
-                </div>
-                <img src="profile.jpg" alt="Aleksandr V. Petrov">
+    <div class="container">
+        <div class="profile">
+            <div class="name-title">
+                <h1>Aleksandr V. Petrov</h1>
+                <h2>Applied ML Researcher · Search &amp; Recommendation</h2>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="cv.html" target="_blank" rel="noopener">CV</a></li>
-                    <li><a href="https://www.linkedin.com/in/asash/" target="_blank" rel="noopener">LinkedIn</a></li>
-                    <li><a href="https://twitter.com/asash" target="_blank" rel="noopener">Twitter</a></li>
-                    <li><a href="https://github.com/asash" target="_blank" rel="noopener">GitHub</a></li>
-                    <li><a href="https://scholar.google.com/citations?user=Cw7DY8IAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a></li>
-                    <li><a href="https://asash.github.io/pdf/AleksandrPetrovThesis.pdf" target="_blank" rel="noopener">Thesis</a></li>
-                </ul>
-            </nav>
+            <img src="profile.jpg" alt="Aleksandr V. Petrov">
         </div>
+        <nav aria-label="Profile links">
+            <ul>
+                <li><a href="cv.html" target="_blank" rel="noopener">CV</a></li>
+                <li><a href="https://www.linkedin.com/in/asash/" target="_blank" rel="noopener">LinkedIn</a></li>
+                <li><a href="https://twitter.com/asash" target="_blank" rel="noopener">Twitter</a></li>
+                <li><a href="https://github.com/asash" target="_blank" rel="noopener">GitHub</a></li>
+                <li><a href="https://scholar.google.com/citations?user=Cw7DY8IAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a></li>
+                <li><a href="https://asash.github.io/pdf/AleksandrPetrovThesis.pdf" target="_blank" rel="noopener">Thesis</a></li>
+            </ul>
+        </nav>
     </div>
 </header>
+
 <main>
-<section aria-labelledby="about-heading">
-    <div class="container about-card">
-        <h2 class="section-heading" id="about-heading">About me</h2>
-        <div class="about-copy">
-        <p>
-            I am a <strong>Research Scientist at Spotify</strong>, where I focus on making 
-            <strong>generative language models</strong> work effectively for search and recommendation tasks. 
-            I recently completed my PhD in Machine Learning at the <strong>University of Glasgow</strong> 
-            (awarded with distinction), supervised by <a href="https://www.dcs.gla.ac.uk/~craigm/">Prof. Craig Macdonald</a> 
-            and <a href="https://www.dcs.gla.ac.uk/~ounis/">Prof. Iadh Ounis</a>. 
-            My doctoral research on transformer models for sequential recommendation was recognized with the 
-            <strong>Best Paper Award at RecSys 2023</strong> and a nomination at RecSys 2022.
-        </p>
-        <p>
-            Prior to Spotify, I was a Senior Scientist at <strong>Tripadvisor (Viator)</strong>, where I deployed 
-            production semantic search models, and an Applied Scientist at <strong>Amazon</strong>, where I led 
-            large-scale ML projects for advertising and personalization. I also co-founded <strong>E-Contenta</strong>, 
-            a startup providing white-label recommender systems for media platforms.
-        </p>
-        <p>
-            My research is published in top-tier venues including <strong>SIGIR, RecSys, WSDM, and ECIR</strong>, 
-            as well as <strong>ACM Transactions on Recommender Systems (TORS)</strong>. I actively serve the 
-            research community as a PC member for <strong>RecSys, WWW, and ECIR</strong>, and as a reviewer for 
-            journals such as TOIS and TKDD.
-        </p>
-        <p>In my free time, I enjoy driving through the Scottish Highlands, studying languages, and reading fantasy books.</p>
-        <p class="contact-line">Get in touch: <a href="mailto:firexel@gmail.com">firexel@gmail.com</a></p>
-        </div>
-        <ul class="interest-list" aria-label="Research interests">
-            <li>Generative RecSys</li>
-            <li>Large Language Models</li>
-            <li>Search &amp; Information Retrieval</li>
-            <li>Sequential Modelling</li>
-            <li>Production-scale Personalisation</li>
-        </ul>
-    </div>
-</section>
-    <section id="publications" aria-labelledby="publications-heading">
+    <section aria-labelledby="highlights-heading">
         <div class="container">
-            <h2 class="section-heading" id="publications-heading">Publications</h2>
-            <ul id="publication-list"></ul>
+            <p class="eyebrow">At a glance</p>
+            <h2 class="section-heading" id="highlights-heading">Highlights</h2>
+            <div class="highlight-grid">
+                <article class="highlight-card">
+                    <h3>Generative Home</h3>
+                    <p>Led evaluation work for hypothesis-driven shelf generation at Spotify.</p>
+                </article>
+                <article class="highlight-card">
+                    <h3>Personalised Search</h3>
+                    <p>Developed the initial LLM cross-encoder recipe; the resulting system lifted live search success by approximately 2%.</p>
+                </article>
+                <article class="highlight-card">
+                    <h3>Production Search</h3>
+                    <p>Deployed semantic retrieval at Tripadvisor, improving search CTR by 3%.</p>
+                </article>
+                <article class="highlight-card">
+                    <h3>Research Impact</h3>
+                    <p>RecSys 2023 Best Paper, with work published at SIGIR, RecSys, WSDM, and TORS.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="selected-publications" aria-labelledby="selected-publications-heading">
+        <div class="container">
+            <div class="section-intro">
+                <div>
+                    <p class="eyebrow">Research &amp; practice</p>
+                    <h2 class="section-heading" id="selected-publications-heading">Selected publications</h2>
+                </div>
+                <a class="section-link" href="#all-publications-heading">View all publications</a>
+            </div>
+            <ul class="publication-list" id="selected-publications-list"></ul>
+        </div>
+    </section>
+
+    <section aria-labelledby="about-heading">
+        <div class="container about-card">
+            <h2 class="section-heading" id="about-heading">About me</h2>
+            <div class="about-copy">
+                <p>I am a <strong>Research Scientist at Spotify</strong>, where I focus on making <strong>generative language models</strong> work effectively for search and recommendation tasks. I recently completed my PhD in Machine Learning at the <strong>University of Glasgow</strong> (awarded with distinction), supervised by <a href="https://www.dcs.gla.ac.uk/~craigm/">Prof. Craig Macdonald</a> and <a href="https://www.dcs.gla.ac.uk/~ounis/">Prof. Iadh Ounis</a>. My doctoral research on transformer models for sequential recommendation was recognised with the <strong>Best Paper Award at RecSys 2023</strong> and a nomination at RecSys 2022.</p>
+                <p>Prior to Spotify, I was a Senior Scientist at <strong>Tripadvisor (Viator)</strong>, where I deployed production semantic search models, and an Applied Scientist at <strong>Amazon</strong>, where I led large-scale ML projects for advertising and personalisation. I also co-founded <strong>E-Contenta</strong>, a startup providing white-label recommender systems for media platforms.</p>
+                <p>My research is published in top-tier venues including <strong>SIGIR, RecSys, WSDM, and ECIR</strong>, as well as <strong>ACM Transactions on Recommender Systems (TORS)</strong>. I actively serve the research community as a PC member for <strong>RecSys, WWW, and ECIR</strong>, and as a reviewer for journals such as TOIS and TKDD.</p>
+                <p>In my free time, I enjoy driving through the Scottish Highlands, studying languages, and reading fantasy books.</p>
+                <p class="contact-line">Get in touch: <a href="mailto:firexel@gmail.com">firexel@gmail.com</a></p>
+            </div>
+            <ul class="interest-list" aria-label="Research interests">
+                <li>Generative RecSys</li>
+                <li>Large Language Models</li>
+                <li>Search &amp; Information Retrieval</li>
+                <li>Sequential Modelling</li>
+                <li>Production-scale Personalisation</li>
+            </ul>
+        </div>
+    </section>
+
+    <section aria-labelledby="honours-heading">
+        <div class="container">
+            <p class="eyebrow">Recognition</p>
+            <h2 class="section-heading" id="honours-heading">Honours &amp; awards</h2>
+            <div class="honours-grid">
+                <article class="honour-card"><span>2023</span><h3>Best Paper Award</h3><p>ACM RecSys</p></article>
+                <article class="honour-card"><span>2022</span><h3>Best Student Paper Nominee</h3><p>ACM RecSys</p></article>
+                <article class="honour-card"><span>2025</span><h3>PhD with Distinction</h3><p>Viva passed with no corrections</p></article>
+                <article class="honour-card"><span>UK</span><h3>Exceptional Talent Visa</h3><p>Research and technical track record</p></article>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" aria-labelledby="all-publications-heading">
+        <div class="container">
+            <p class="eyebrow">Complete record</p>
+            <h2 class="section-heading" id="all-publications-heading">All publications</h2>
+            <ul class="publication-list" id="publication-list"></ul>
         </div>
     </section>
 </main>
