@@ -10,7 +10,7 @@
     {
       "title": "Robust Fusion of Semantic and Behavioural Signals for LLM Reranking in Personalised Search",
       "authors": ["Aleksandr V. Petrov", "Nathan Stein", "Erik Lybecker", "Emma Schüldt", "Daniel Lazarovski", "Hugues Bouchard", "Mounia Lalmas"],
-      "venue": "USRW@RecSys",
+      "venue": "RecSys (USRW workshop)",
       "year": 2026,
       "links": [],
       "awards": []
@@ -18,7 +18,7 @@
     {
       "title": "Do LLM-judges Align with Human Relevance in Cranfield-style Recommender Evaluation?",
       "authors": ["Gustavo Penha", "Aleksandr V. Petrov", "Claudia Hauff", "Enrico Palumbo", "Ali Vardasbi", "Edoardo D'Amico", "Francesco Fabbri", "Alice Wang", "Praveen Chandar", "Henrik Lindstrom", "Hugues Bouchard", "Mounia Lalmas"],
-      "venue": "USRW@RecSys",
+      "venue": "RecSys (USRW workshop)",
       "year": 2026,
       "links": [{"name": "paper", "url": "https://arxiv.org/abs/2511.23312"}],
       "awards": []
@@ -34,7 +34,7 @@
     {
       "title": "LLMs for Estimating Positional Bias in Logged Interaction Data",
       "authors": ["Aleksandr V. Petrov", "Michael Murtagh", "Karthik Nagesh"],
-      "venue": "CONSEQUENCES@RecSys",
+      "venue": "RecSys (CONSEQUENCES workshop)",
       "year": 2025,
       "links": [{"name": "paper", "url": "https://arxiv.org/abs/2509.03696"}],
       "awards": []
@@ -117,7 +117,7 @@
     {
     "title": " Aligning GPTRec with Beyond-Accuracy Goals with Reinforcement Learning",
     "authors": ["Aleksandr V. Petrov", "Craig Macdonald"],
-    "venue": "GenRec@WWWW",
+    "venue": "WWW (GenRec workshop)",
     "year": 2024,
     "links": [
         {"name": "pdf", "url": "https://arxiv.org/pdf/2403.04875.pdf"},
@@ -172,7 +172,7 @@
   {
     "title": "Generative Sequential Recommendation with GPTRec",
     "authors": ["Aleksandr V. Petrov", "Craig Macdonald"],
-    "venue": "Gen-IR@SIGIR",
+    "venue": "SIGIR (Gen-IR workshop)",
     "year": 2023,
     "links": [{"name": "pdf", "url": "https://arxiv.org/pdf/2306.11114.pdf"}],
     "awards": []
@@ -209,7 +209,7 @@
   {
     "title": "MTS Kion Implicit Contextualised Sequential Dataset for Movie Recommendation",
     "authors": ["Aleksandr V. Petrov", "Ildar Safilo", "Daria Tikhonovich", "Dmitry Ignatov"],
-    "venue": "CARS@RecSys",
+    "venue": "RecSys (CARS workshop)",
     "year": 2022,
     "links": [{"name": "pdf", "url": "https://arxiv.org/pdf/2209.00325.pdf"},
       {"name": "code", "url": "https://github.com/MobileTeleSystems/RecTools/tree/main/datasets/KION"}],
@@ -219,7 +219,7 @@
   {
     "title": "Attention-based neural re-ranking approach for next city in trip recommendations",
     "authors": ["Aleksandr V. Petrov", "Yuriy Makarov"],
-    "venue": "WebTour@WSDM",
+    "venue": "WSDM (WebTour workshop)",
     "year": 2021,
     "links": [{"name": "pdf", "url": "https://ceur-ws.org/Vol-2855/challenge_short_6.pdf"}],
     "awards": []
