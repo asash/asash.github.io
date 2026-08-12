@@ -42,7 +42,7 @@
     {
       "title": "GLoSS: Generative Language Models with Semantic Search for Sequential Recommendation",
       "authors": ["Krishna Acharya", "Aleksandr V. Petrov", "Juba Ziani"],
-      "venue": "arXiv",
+      "venue": "KDD (OARS workshop)",
       "year": 2025,
       "links": [{"name": "paper", "url": "https://arxiv.org/abs/2506.01910"}],
       "awards": []
