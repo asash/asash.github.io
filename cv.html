@@ -1,34 +1,123 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aleksandr Petrov CV</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            flex-direction: column;
-        }
-        .pdf-viewer {
-            width: 80%;
-            height: 100%;
-            border: 1px solid #000;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Aleksandr V. Petrov - Applied ML Researcher in search, recommendation, and generative AI.">
+  <title>Aleksandr V. Petrov - Applied ML Researcher</title>
+  <link rel="stylesheet" href="cv.css">
 </head>
 <body>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N2VQB1X5MM"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  <aside class="screen-tools" aria-label="CV actions">
+    <a href="index.html">Profile</a>
+    <button type="button" onclick="window.print()">Print / Save PDF</button>
+  </aside>
 
-    gtag('config', 'G-N2VQB1X5MM');
-</script>
-<iframe class="pdf-viewer" src="cv.pdf" type="application/pdf"></iframe>
+  <main class="cv">
+    <section class="page page-one">
+      <header class="intro">
+        <h1>Aleksandr V. Petrov</h1>
+        <p class="headline">Applied ML Researcher | Search, Recommendation &amp; Generative AI</p>
+        <p><strong>Industry focus:</strong> Production LLM systems, retrieval and reranking, robust evaluation, large-scale personalisation</p>
+        <p><strong>Highlights:</strong> Spotify Home and Search | +3% search CTR at Tripadvisor | RecSys 2023 Best Paper | SIGIR, RecSys, WSDM</p>
+        <div class="contact">
+          <a href="mailto:firexel@gmail.com">firexel@gmail.com</a><span>+44 7455 908423</span><span>Glasgow, UK (remote)</span><span>British citizen; no visa required</span>
+        </div>
+      </header>
+
+      <section class="skills-grid">
+        <div>
+          <h2>Core expertise</h2>
+          <ul><li>LLM retrieval, reranking, and evaluation</li><li>Search and recommender systems</li><li>Generative retrieval and personalisation</li><li>Online experimentation and model evaluation</li></ul>
+        </div>
+        <div>
+          <h2>Technologies</h2>
+          <ul><li>Python, PyTorch, TensorFlow</li><li>Transformers and embeddings</li><li>Spark, Hadoop, AWS</li><li>Large-scale training and data pipelines</li></ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Work Experience</h2>
+        <article class="role">
+          <div class="role-title"><h3>Spotify <span>- Research Scientist</span></h3><p>2026 - present | Glasgow, UK (remote)</p></div>
+          <ul>
+            <li><strong>Spotify Home:</strong> Contributed to a team building hypothesis-driven shelf generation; led evaluation work across the LLM planning, generative retrieval, candidate alignment, and offline serving pipeline.</li>
+            <li><strong>Personalised Search:</strong> Contributed to an LLM cross-encoder combining semantic, behavioural, and user-context signals; developed the initial training recipe. The resulting system improved offline ranking by 13.3% and live search success by approximately 2%.</li>
+          </ul>
+        </article>
+        <article class="role phd-role">
+          <div class="role-title"><h3>University of Glasgow <span>- PhD Researcher, Recommender Systems</span></h3><p>2021 - May 2025</p></div>
+          <p><strong>Full-time career break:</strong> transformer and generative recommendation research; viva with distinction and no corrections.</p>
+          <ul>
+            <li><strong>Amazon, 2022 &amp; 2024:</strong> fixed-term Applied Science engagements during the PhD; built an identity-free advertising training pipeline and user-modelling methods.</li>
+            <li><strong>Viator, March 2025 - 2026:</strong> bridge back to full-time industry; deployed semantic search (+3% CTR), developed LLM-based position-bias estimation, and contributed to writing the GLoSS paper.</li>
+          </ul>
+        </article>
+        <article class="role">
+          <div class="role-title"><h3>Amazon <span>- Senior Software Engineer (L6) · ML Technical Lead</span></h3><p>2017 - 2021 | Edinburgh, UK</p></div>
+          <ul>
+            <li>Built PeerSets, an ML competitor-identification system integrated into 20 advertising products; coordinated approximately 10 partner teams.</li>
+            <li>Led technical work across recommendation, search ranking, personalisation, and advertising.</li>
+          </ul>
+        </article>
+      </section>
+      <span class="page-number">1 / 2</span>
+    </section>
+
+    <section class="page page-two">
+      <header class="running-header"><strong>Aleksandr V. Petrov</strong><span>Applied ML Researcher</span></header>
+      <section>
+        <h2>Earlier Industry Experience</h2>
+        <article class="role compact"><div class="role-title"><h3>E-Contenta <span>- Co-founder &amp; CTO</span></h3><p>2013 - 2017</p></div><p>Built a white-label recommender platform for video, music, and news companies.</p></article>
+        <div class="earlier">
+          <p><strong>Data-Centric Alliance</strong> - Head of R&amp;D <span>2013 - 2016</span></p>
+          <p><strong>Tinkoff Digital</strong> - Data Platform Team Leader <span>2012 - 2013</span></p>
+          <p><strong>Mail.Ru Group</strong> - Personalisation Researcher <span>2012</span></p>
+          <p><strong>Yandex</strong> - Software Development Engineer <span>2009 - 2012</span></p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <article class="education"><div><h3>University of Glasgow - PhD, Recommender Systems</h3><p>2021 - 2025</p></div><p>Supervisors: Prof. Craig Macdonald and Prof. Iadh Ounis.</p></article>
+        <article class="education"><div><h3>Lomonosov Moscow State University - Specialist, Computer Science</h3><p>2006 - 2011</p></div><p>Master's-equivalent degree; thesis awarded an excellent grade.</p></article>
+      </section>
+
+      <section>
+        <h2>Research &amp; Technical Leadership</h2>
+        <ul class="leadership">
+          <li>Co-organiser: <a href="https://usrw-workshop.github.io/2026/">Unified Search and Recommendation Workshop</a> and <a href="https://remaplab.github.io/frame2026/">FRAME</a>, RecSys 2026.</li>
+          <li>Co-instructor: <a href="https://recsys.acm.org/recsys26/tutorials/">Transformer-based Sequential Recommender Systems</a> tutorial, RecSys 2026.</li>
+          <li>Programme committee: RecSys, WWW, ECIR. Reviewer: TOIS, TORS, TKDD.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Selected Publications</h2>
+        <ol class="publications">
+          <li><strong>Hypothesis-Driven Shelf Generation for Personalised Recommendation.</strong> RecSys 2026 Industry Track. <a href="https://arxiv.org/abs/2607.25823">paper</a></li>
+          <li><strong>Robust Fusion of Semantic and Behavioural Signals for LLM Reranking in Personalised Search.</strong> USRW at RecSys 2026.</li>
+          <li><strong>Do LLM-judges Align with Human Relevance in Recommender Evaluation?</strong> USRW at RecSys 2026. <a href="https://arxiv.org/abs/2511.23312">paper</a></li>
+          <li><strong>Do Sequential Recommendation Benchmarks Really Require Higher-Order Sequence Modelling?</strong> RecSys 2026.</li>
+          <li><strong>LLMs for Estimating Positional Bias in Logged Interaction Data.</strong> CONSEQUENCES 2025. <a href="https://arxiv.org/abs/2509.03696">paper</a></li>
+          <li><strong>Efficient Recommendation with Millions of Items by Dynamic Pruning of Sub-Item Embeddings.</strong> SIGIR 2025. <a href="https://arxiv.org/abs/2505.00560">paper</a></li>
+          <li><strong>RecJPQ: Training Large-Catalogue Sequential Recommenders.</strong> WSDM 2024. <a href="https://arxiv.org/abs/2312.06165">paper</a></li>
+          <li><strong>gSASRec: Reducing Overconfidence in Sequential Recommendation.</strong> RecSys 2023. <a href="https://arxiv.org/abs/2308.07192">paper</a> <em>Best Paper Award.</em></li>
+          <li><strong>Generative Sequential Recommendation with GPTRec.</strong> GenIR at SIGIR 2023. <a href="https://arxiv.org/abs/2306.11114">paper</a></li>
+          <li><strong>RSS: Effective and Efficient Training for Sequential Recommendation using Recency Sampling.</strong> ACM TORS 2023. <a href="https://eprints.gla.ac.uk/299238/1/299238.pdf">paper</a></li>
+          <li><strong>A Systematic Review and Replicability Study of BERT4Rec for Sequential Recommendation.</strong> RecSys 2022. <a href="https://eprints.gla.ac.uk/275645/2/275645.pdf">paper</a></li>
+        </ol>
+      </section>
+
+      <section class="footer-grid">
+        <div><h2>Awards</h2><p>RecSys 2023 Best Paper; RecSys 2022 Best Student Paper nominee; UK Exceptional Talent Visa; Top 2 MTS/ODS; Top 5 Booking.com challenge.</p></div>
+        <div><h2>Links</h2><p><a href="https://scholar.google.com/citations?user=Cw7DY8IAAAAJ&amp;hl=en">Google Scholar</a> | <a href="https://github.com/asash">GitHub</a> | <a href="https://www.linkedin.com/in/aleksandr-v-p-57183537/">LinkedIn</a></p></div>
+      </section>
+      <span class="page-number">2 / 2</span>
+    </section>
+  </main>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N2VQB1X5MM"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date);gtag('config','G-N2VQB1X5MM');</script>
 </body>
 </html>
